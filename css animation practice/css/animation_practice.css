@@ -1,0 +1,160 @@
+.letter {
+	float: left;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 55px;
+	color: black;
+
+}
+
+.miles {
+	float: left;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 55px;
+	color: white;
+		animation: miles_in 1s;
+		animation-delay: 6.25s;
+}
+
+
+/* keyframes */
+
+
+		@keyframes color_fade {
+			0% {color: white;}
+			50% {color: #39ff14;}
+			100% {color: white;}
+		}
+
+		@keyframes miles_in {
+			0% {color: white;}
+			100% {color: #39ff14;}
+		}
+
+
+
+/* slime */
+
+
+.s {
+	animation: color_fade 2s;
+		animation-delay: .5s;
+		animation-fill-mode: forwards;
+}
+
+.l {
+	animation: color_fade 2s;
+		animation-delay: 1s;
+		animation-fill-mode: forwards;
+}
+
+.i {
+	animation: color_fade 2s;
+		animation-delay: 1.5s;
+		animation-fill-mode: forwards;
+}
+
+.m {
+	animation: color_fade 2s;
+		animation-delay: 2s;
+		animation-fill-mode: forwards;
+}
+
+.e {
+	animation: color_fade 2s;
+		animation-delay: 2.5s;
+		animation-fill-mode: forwards;
+}
+
+
+/* miles */
+
+
+.one {
+	animation: miles_in 1s linear;
+			animation-delay: 4.25s;
+			animation-fill-mode: forwards;
+}
+
+.two {
+	animation: miles_in 1s linear;
+			animation-delay: 4.5s;
+			animation-fill-mode: forwards;
+}
+
+.three {
+	animation: miles_in 1s linear;
+			animation-delay: 4.75s;
+			animation-fill-mode: forwards;
+}
+
+.four {
+	animation: miles_in 1s linear;
+			animation-delay: 5s;
+			animation-fill-mode: forwards;
+}
+
+.five {
+	animation: miles_in 1s linear;
+			animation-delay: 5.25s;
+			animation-fill-mode: forwards;
+}
+
+.six {
+	animation: miles_in 1s linear;
+			animation-delay: 5.5s;
+			animation-fill-mode: forwards;
+}
+
+.seven {
+	animation: miles_in 1s linear;
+			animation-delay: 5.75s;
+			animation-fill-mode: forwards;
+}
+
+.eight {
+	animation: miles_in 1s linear;
+			animation-delay: 6s;
+			animation-fill-mode: forwards;
+}
+
+.nine {
+	animation: miles_in 1s linear;
+			animation-delay: 6.25s;
+			animation-fill-mode: forwards;
+}
+
+.ten {
+	animation: miles_in 1s linear;
+			animation-delay: 6.5s;
+			animation-fill-mode: forwards;
+}
+
+.eleven {
+	animation: miles_in 1s linear;
+			animation-delay: 6.75s;
+			animation-fill-mode: forwards;
+}
+
+.twelve {
+	animation: miles_in 1s linear;
+			animation-delay: 7s;
+			animation-fill-mode: forwards;
+}
+
+.thirteen {
+	animation: miles_in 1s linear;
+			animation-delay: 7.25s;
+			animation-fill-mode: forwards;
+}
+
+.fourteen {
+	animation: miles_in 1s linear;
+			animation-delay: 7.5s;
+			animation-fill-mode: forwards;
+}
+
+.fifteen {
+	animation: miles_in 1s linear;
+			animation-delay: 7.75s;
+			animation-fill-mode: forwards;
+}
